@@ -1,3 +1,8 @@
+            ********************************************************************
+            *************************  GIT CHEET SHEET *************************
+            ********************************************************************
+
+
 1. git init ----> Initializing git folder in a normal working directory
 
 2. git add -all ----> `git add --all` make all your changes of the folder ,subfolders,files to staging area

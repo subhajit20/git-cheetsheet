@@ -1,0 +1,32 @@
+1. git init ----> Initializing git folder in a normal working directory
+
+2. git add -all ----> `git add --all` make all your changes of the folder ,subfolders,files to staging area
+
+3. git add -A ----> `git add --A` make all your changes of the folder ,subfolders,files to staging area
+
+4. git add . ----> `git add .` only keeps the changes in a particular folder , files outsides of the folder would not be added to the staging area
+
+5. git restore fileName.extname ----> `git restore fileName.extname` restore the file, folder or any images or any file which You have deleted recently in your git directory
+
+6. git add * ----> `git add *` will only takes all files and folders,subfolder into the staging are except those files which have already been deleted by yourself mistakenly.
+
+7. git commit -m 'commit message' ----> `git commit -m 'commit message' save all the changes to the local repository
+
+8. git log --oneline ----> 'git log --oneline' shows all the commits you have done so far and commit id
+
+9. git checkout 'commitId' ----> `git checkout 'commitId'` will helps developers to see the previous commits of your local repository
+
+10. git  reset ---->  `git reset` command helps us to go to the previous step 
+
+11. git remote add remotereponame remote_url ----> `git remote add remotereponame remote_url` command help us to connect with our remote repo where we can push our local repo folders,subfolders and files
+
+12. git remote -v ----> `git remote -v` will show the remote url links which you have added 
+
+13. git push remoteName branchName ----> `git push remoteName branchName` command push the local repo into the remote repository
+
+14. git pull ----> `git pull` If we make any changes in the remote repo then we have to run this command to get updates of our local repo which is connected with remote.
+
+15. git branch branchName ----> `git branch branchName` will helps developers to make new branch in the local repository , The branch will be created with the same folder and files as Master Branch I mean the new branch remain same as the master brach but we can make changes freely in our new branches but the changes should only be occured in the specific branch not the master brach or any other branch, change will only be shown in the specific branch where you currently work in.
+
+16. git merge branchName ----> `git merge branchName` now when we will be sure that the changes of the new branch should be merged with the master branch then we have to go to the master branch at first , then we run `git merge newBranch`, it merges with Master with Master and gove us the updated loacl repo , after merging we will have all the barnches so we would not have to be worry about that.
+
